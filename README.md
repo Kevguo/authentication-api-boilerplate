@@ -28,5 +28,4 @@ password <br/>
 
 ## Private (For testing token): <br/>
 **http://localhost:5000/api/users/current** <br/>
-_Required fields:_ <br/>
-Authorization (Bearer) 
+Header: Authorization (Bearer Token) 
