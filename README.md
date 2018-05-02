@@ -14,20 +14,19 @@ yarn server
 
 ## Public routes:
 
-**http://localhost:5000/api/users/register**
-_Required fields:_
-name
-email
-password
+**http://localhost:5000/api/users/register** <br/>
+_Required fields:_ <br/>
+name <br/>
+email <br/>
+password <br/>
 password2
 
-**http://localhost:5000/api/users/login**
-_Required fields:_
-email
-password
+**http://localhost:5000/api/users/login** <br/>
+_Required fields:_ <br/>
+email <br/>
+password <br/>
 
-## Private (Passport):
-
-**http://localhost:5000/api/users/current**
-_Required fields:_
-Authorization (Bearer)
+## Private (For testing token): <br/>
+**http://localhost:5000/api/users/current** <br/>
+_Required fields:_ <br/>
+Authorization (Bearer) 
